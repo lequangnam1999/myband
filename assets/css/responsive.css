@@ -1,0 +1,64 @@
+
+/* pc */
+@media (min-width: 1024px) {
+
+}
+/* table */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+/* mobile */
+@media (max-width: 739px) {
+    #header .search-btn {
+        display: none;
+    }
+
+    #header {
+        overflow: hidden;
+
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav .subnav {
+        position: inherit;
+    }
+    #nav {
+        display: block;
+    }
+    #nav li a {
+        display: block;
+        width: 100%;
+    }
+    #nav li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        background-color: rgb(69, 69, 69);
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 8px 44px;
+    }
+    .mobile-menu-btn {
+        display: block;
+    }
+
+    .full-wdith-mobile {
+        width: 100%;
+    }
+
+    .menber-img {
+        width: 60%;
+    }
+    .mt-mobile-40 {
+        margin-top: 40px;
+    }
+    .mb-mobile-10 {
+        margin-bottom: 10px;
+    }
+
+}
